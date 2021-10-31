@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-LIST</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="modal"> 
+        <div class="modal-body">모바일에서 보단 컴퓨터로 보는게 이쁜데.. ㅎㅎ   </div> 
+    </div>
+
+
+    <div class="top-wrapper">
+        <div class="title-wrapper">
+            <h1 class="title">TODO-LIST</h1>
+            <h2 id="message">
+                <div class="js-clock">
+                    <h1 class="js-title">00:00</h1>
+                </div>
+        </div>
+        <!-- h1.js-title >> 클래스 네임과 h1 태그 동시에 입력 방법 -->
+        <!-- Command+l : 커서 위치 한줄 선택 -->
+       
+        <div class="weather">
+            <span class="js-weather"></span>
+            <span class="js-weather"></span>
+        </div>
+    </div>
+
+    <form class="js-form form">
+        <div class="login-wrapper">
+            <input class="login-input" type="text" placeholder=" What is your name? ">
+            <button class="login-btn" type="submit">REMEMBER ME!</button>
+        </div>
+
+    </form>
+    <div class="logout-wrapper">
+        <h3 class="js-greetings greetings"></h4>
+
+        <button class="remove-user" type="submit">REMOVE..ME..?</button>
+    </div>
+
+
+    <form class="js-todoForm">
+        <input class="todo-input" type="text" placeholder="Write a to do" />
+        <button type="submit" id="todo-btn">save todo</button>
+    </form>
+
+    <ul class="js-todoList">
+
+    </ul>
+
+
+
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="mobile.js"></script>
+
+</body>
+
+</html>
